@@ -1,0 +1,63 @@
+body {
+	color: #444444;
+	font-family: Century Gothic;
+	background-color: #f9f9f9;
+}
+h1.text-depan{
+	font-size: 2.4em;
+	color: #6d6e6f;	
+}
+div.jadwal{
+	width: 200px;	
+	height:250px;
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+}
+div.jadwal table{
+	min-width: 190px;
+	background: white;
+	border-collapse: collapse;
+	position: relative;
+	border-bottom:1px solid #e5e5e5;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+}
+div.jadwal table th{
+	text-align: center;
+	padding: 10px 0 !important;
+	text-transform: uppercase;
+}
+div.jadwal table td{
+	font-size: 8pt;
+	border: 1px solid #e5e5e5;
+	text-transform: capitalize;
+	padding: 17px 10px;
+}
+table span.full {
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+table span.ready {
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+span.tgl{
+	font-size: 10px;
+	font-weight: lighter;
+}
+.sekarang{
+	border-top: 5px solid #26baee;
+}
+.lainhari{
+	border-top:1px solid #e5e5e5;
+	background-color: white;
+}
+a.hapus{
+	text-decoration: none;
+	color: red;
+}
